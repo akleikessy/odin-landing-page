@@ -11,10 +11,10 @@ html {
 .header-container {
     background-color: #1f2937;
     width: 100%;
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-direction: column;
-    gap: 6rem;
+    gap: 5rem;
 }
 .main-header {
     display: flex;
@@ -40,7 +40,7 @@ html {
 .header-content {
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
+    gap:4rem;
     width: 80%;
     height: 300px;
     align-items: center;
@@ -77,4 +77,38 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.information-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.information-header h1{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.information-img-placeholder, .information-subtext {
+    display: flex;
+    gap: 3rem;
+}
+.info-img{
+    border: 4px solid #3882f6;
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+}
+.info-subtext {
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.quotation-container {
+    background-color: #e5e7eb;
+    width: 100%;
+    height: 200px;
 }
