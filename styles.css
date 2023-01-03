@@ -58,15 +58,17 @@ html {
     color: #e5e7eb;
     font-size: 18px;
 }
-.header-content-item1 .button {
+.button {
     background-color: #3882f6;
     color:#e5e7eb;
     font-size: 18px;
     font-weight: bolder;
     width: 8rem;
     height: 2.5rem;
-    border: 0;
     border-radius: 10px;
+}
+.header-content-item1 .button {
+    border: 0;
     margin-top: 1.5rem;
 }
 .header-image-placeholder {
@@ -110,5 +112,58 @@ html {
 .quotation-container {
     background-color: #e5e7eb;
     width: 100%;
-    height: 200px;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+figure {
+    width: 60%;
+}
+blockquote p{
+    font-size: 36px;
+    font-style:italic;
+    font-weight:lighter;
+    color: #1f2937;
+}
+figcaption {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+.action-container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action-call {
+    background-color: #3882f6;
+    color:#e5e7eb;
+    width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.action-content {
+    margin-left: 6rem;
+}
+.action-button {
+    margin-right: 6rem;
+}
+.action-button .button {
+    border: 2px solid white;
+}
+.footer-container {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 18px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
